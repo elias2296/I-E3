@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería San Camilo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barra superior con información -->
+    <div class="top-bar">
+        <div class="container is-flex is-justify-content-center is-align-items-center">
+            <span class="mr-2">Panadería San Camilo || 140 años llevando lo bueno</span>
+            <a href="https://www.instagram.com/sancamilochile/" target="_blank" class="ml-3">
+                <img src="img/instagram.png" alt="Instagram" width="24" height="24">
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- Header con logo y navegación -->
+    <header>
+        <nav class="navigation">
+            <a href="index.html">
+                <img src="img/logo.jpg" alt="Logo" class="logo">
+            </a>
+        </nav>
+    </header>
+
+
+    <section class="producto-section container">
+        <div class="row">
+            <!-- Columna Izquierda: Video -->
+            <div class="col-md-6 video-container">
+                <h2>Nuestro Producto</h2>
+                <p>Descripción</p>
+                <video controls width="100%">
+                    <source src="ruta_del_video.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+            
+            <!-- Columna Derecha: Imágenes en cuadrícula -->
+            <div class="col-md-6 images-container">
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <img src="img/producto/img-exe1.jpg" alt="Imagen 1" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <img src="img/producto/img-exe2.jpg" alt="Imagen 2" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/producto/img-exe3.jpg" alt="Imagen 3" class="img-fluid img-thumbnail">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/producto/img-exe4.jpg" alt="Imagen 4" class="img-fluid img-thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Sección de Sellos -->
+        <div class="sello-section mt-4">
+            <h3>Sellos</h3>
+            <div class="sello-container">
+                <img src="img/sellos/alto_en_seal_1.jpg" alt="Sello Alto en Azúcares" class="sello-img">
+                <img src="img/sellos/alto_en_seal_2.jpg" alt="Sello Alto en Grasas Saturadas" class="sello-img">
+                <img src="img/sellos/alto_en_seal_3.jpg" alt="Sello Alto en Sodio" class="sello-img">
+                <img src="img/sellos/alto_en_seal_4.jpg" alt="Sello Alto en Calorías" class="sello-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="historia-ubicaciones-section container">
+        <div class="row">
+            <!-- Columna Izquierda: Línea de Tiempo -->
+            <div class="col-md-6 historia-container">
+                <h3>Conoce su historia</h3>
+                <div class="historia-item">
+                    <h4>Traza - Materia prima</h4>
+                    <p>Nombre de la empresa</p>
+                    <p>Descripción</p>
+                    <p>Localización 1</p>
+                </div>
+                <div class="historia-item">
+                    <h4>Traza - Historia</h4>
+                    <p>Nombre de la empresa</p>
+                    <p>Descripción</p>
+                    <p>2001, Johannesburg, Gauteng, South Africa</p>
+                </div>
+                <div class="historia-item">
+                    <h4>Traza - Envío</h4>
+                    <p>Nombre de la empresa</p>
+                    <p>Descripción</p>
+                    <p>Veracruz, Veracruz, Mexico</p>
+                </div>
+            </div>
+            
+            <!-- Columna Derecha: Mapa con iframe de Google Maps -->
+            <div class="col-md-6 mapa-container">
+                <h3 class="ubic-titulo">Ubicaciones</h3>
+                <div id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.375670216057!2d-70.59811509999997!3d-33.517617099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d06757799979%3A0x913dd02e5daeb4b7!2sMallplaza%20Vespucio!5e0!3m2!1ses!2scl!4v1731362439545!5m2!1ses!2scl" 
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <img src="img/logo.jpg" alt="Logo" class="logo-img">
+        </div>
+    </footer>
+    
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
